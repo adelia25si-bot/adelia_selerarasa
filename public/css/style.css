@@ -5272,23 +5272,6 @@ h6 {
     height: auto;
 }
 
-/* SELERA RASA - HEADER */
-.header-area .main-header-area {
-    background: #5A3E2B !important;
-}
 
-.header-area .main-menu ul li a {
-    color: #F7F1E3 !important;
-}
-
-.header-area .main-menu ul li a:hover {
-    color: #C96A3D !important;
-}
-
-.header-area .custom_order .boxed_btn_white {
-    background: #C96A3D !important;
-    border-color: #C96A3D !important;
-    color: #F7F1E3 !important;
-}
 
 /*# sourceMappingURL=style.css.map */

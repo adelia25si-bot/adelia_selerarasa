@@ -48,6 +48,13 @@
                             </a>
                         </li>
 
+                        <li class="sidebar-item">
+                        <a href="{{ route('menus.index') }}" class="sidebar-link">
+                            <i class="bi bi-egg-fried"></i>
+                            <span>Kelola Menu</span>
+                        </a>
+                    </li>
+
                         <li class="sidebar-item  has-sub">
                             <a href="#" class='sidebar-link'>
                                 <i class="bi bi-stack"></i>
@@ -391,9 +398,13 @@
                 </a>
             </header>
 
-            <div class="page-heading">
-                <h3>Statistika Selera Rasa</h3>
-            </div>
+
+@yield('content')
+
+    <div class="page-heading">
+        <h3>Statistika Selera Rasa</h3>
+    </div>
+
             <div class="page-content">
                 <section class="row">
                     <div class="col-12 col-lg-9">
