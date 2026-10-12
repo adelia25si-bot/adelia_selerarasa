@@ -26,8 +26,7 @@
                     <input type="text"
                            name="nama_pelanggan"
                            class="form-control"
-                           value="{{ old('nama_pelanggan') }}"
-                           required>
+                           value="{{ old('nama_pelanggan') }}" >
 
                     @error('nama_pelanggan')
                         <div class="text-danger">{{ $message }}</div>

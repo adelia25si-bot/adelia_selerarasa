@@ -40,7 +40,7 @@
                     <div class="form-group mb-3">
                         <label>Nama Menu</label>
                         <input type="text" name="nama_menu" class="form-control"
-                               value="{{ old('nama_menu') }}" required>
+                               value="{{ old('nama_menu') }}" >
                          @error('nama_menu')
                                 <div class="text-danger">{{ $message }}</div>
                             @enderror
@@ -49,7 +49,7 @@
                     <div class="form-group mb-3">
                         <label>Kategori</label>
                         <input type="text" name="kategori" class="form-control"
-                               value="{{ old('kategori') }}" required>
+                               value="{{ old('kategori') }}" >
                                @error('kategori')
                             <div class="text-danger">{{ $message }}</div>
                         @enderror
@@ -58,7 +58,7 @@
                     <div class="form-group mb-3">
                         <label>Harga</label>
                         <input type="number" name="harga" class="form-control"
-                               value="{{ old('harga') }}" min="0" required>
+                               value="{{ old('harga') }}" min="0" >
                                @error('harga')
                             <div class="text-danger">{{ $message }}</div>
                         @enderror
